@@ -1,0 +1,427 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Be Vietnam Pro", sans-serif;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+
+
+}
+
+.wrapper {
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+
+}
+
+.main-container {
+    margin: 0 auto;
+    background-image: linear-gradient(to right, #005aa7, #fffde4);
+}
+
+/* Info Section  */
+.info-Section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 30px;
+
+}
+
+.company-title {
+
+    background-color: #2f3c7e;
+    color: white;
+    margin: 15px;
+    padding: 10px;
+    font-size: 2rem;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+.company-desc {
+    max-width: 1200px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 90%;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 2rem;
+    text-align: center;
+    background-color: #2f3c7e;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+
+
+
+}
+
+.dotted-sec {
+    min-width: 90%;
+    height: 4px;
+    border-radius: 3px;
+    background-color: #2f3c7e;
+
+}
+
+.team-heading {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+/* Leaadership/management section  */
+.management-section {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 30px;
+    background-image: linear-gradient(to right, #b6fbff, #83a4d4);
+
+}
+
+.lead-team-title {
+    background-color: #2f3c7e;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+
+.lead1-sec {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+
+
+}
+
+.lead2-sec {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+
+
+}
+
+/* Development Team Section  */
+.development-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+    flex-wrap: wrap;
+
+
+}
+
+.dev-team-title {
+    background-color: #2f3c7e;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+
+.dev1-sec {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+
+}
+
+.dev2-sec {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    gap: 60px;
+
+}
+
+/* Sales and Marketing Team Section  */
+
+.sales-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+    flex-wrap: wrap;
+    background-image: linear-gradient(to right, #b6fbff, #83a4d4);
+
+}
+
+.sales-team-title {
+
+    background-color: #2f3c7e;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+
+.sales1-sec {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+
+}
+
+.sales2-sec {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+
+
+}
+
+/* For Images  */
+
+.img-sec {
+
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 20px #333;
+    border-radius: 8px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+
+}
+
+.img-desc {
+    padding: 5px;
+    text-align: center;
+}
+
+.img-name {
+    font-weight: bold;
+}
+
+.img-proff {
+    font-style: italic;
+    color: #162c98;
+
+}
+
+.img-sec img {
+
+    object-fit: cover;
+    border-radius: 8px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+
+
+}
+
+.img-sec:hover {
+    cursor: pointer;
+    transform: scale(1.12);
+    transition: 0.3s;
+
+}
+
+/* Media Queries */
+
+@media screen and (max-width:750px) {
+
+
+    .company-title {
+        font-size: 1.5rem;
+
+        padding: 8px;
+        margin: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+
+    }
+
+    .company-desc {
+        font-size: 12px;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        line-height: 1.8rem;
+
+    }
+
+    .team-heading {
+        font-size: 1.5rem;
+    }
+
+    .lead-team-title {
+        font-size: 1.5rem;
+    }
+
+    .dev-team-title {
+        font-size: 1.5rem;
+    }
+
+    .sales-team-title {
+        font-size: 1.5rem;
+    }
+
+    .img-desc {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width:550px) {
+
+    .company-title {
+        font-size: 1.3rem;
+
+        padding: 8px;
+        margin: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+
+    }
+
+    .company-desc {
+        font-size: 12px;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        line-height: 1.5rem;
+    }
+
+    .team-heading {
+        font-size: 1.3rem;
+    }
+
+    .lead-team-title {
+        font-size: 1.3rem;
+    }
+
+    .dev-team-title {
+        font-size: 1.3rem;
+    }
+
+    .sales-team-title {
+        font-size: 1.3rem;
+    }
+
+    .img-desc {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:450px) {
+
+
+    .company-title {
+        font-size: 0.9rem;
+
+        padding: 8px;
+        margin: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+
+    }
+
+    .company-desc {
+        font-size: 12px;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        line-height: 1.3rem;
+    }
+
+    .team-heading {
+        font-size: 1.2rem;
+    }
+
+    .lead-team-title {
+        font-size: 0.9rem;
+    }
+
+    .dev-team-title {
+        font-size: 0.9rem;
+    }
+
+    .sales-team-title {
+        font-size: 0.9rem;
+    }
+
+    .img-desc {
+        font-size: 0.7rem;
+    }
+
+
+}
+
+@media screen and (max-width:350px) {
+
+    .company-title {
+        font-size: 0.7rem;
+
+        padding: 8px;
+        margin: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+
+    }
+
+    .company-desc {
+        font-size: 12px;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        line-height: 1.2rem;
+    }
+
+    .team-heading {
+        font-size: 1.2rem;
+    }
+
+    .lead-team-title {
+        font-size: 0.7rem;
+    }
+
+    .dev-team-title {
+        font-size: 0.7rem;
+    }
+
+    .sales-team-title {
+        font-size: 0.7rem;
+    }
+
+    .img-desc {
+        font-size: 0.5rem;
+    }
+
+
+}
