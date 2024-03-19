@@ -264,7 +264,6 @@
 
     .company-title {
         font-size: 1.5rem;
-
         padding: 8px;
         margin: 10px;
         margin-top: 5px;
@@ -277,6 +276,7 @@
         margin-top: 0.5rem;
         margin-bottom: 0.5rem;
         line-height: 1.8rem;
+        width: 100%;
 
     }
 
@@ -318,6 +318,7 @@
         margin-top: 0.5rem;
         margin-bottom: 0.5rem;
         line-height: 1.5rem;
+         width: 100%;
     }
 
     .team-heading {
@@ -346,7 +347,6 @@
 
     .company-title {
         font-size: 0.9rem;
-
         padding: 8px;
         margin: 10px;
         margin-top: 5px;
@@ -359,6 +359,7 @@
         margin-top: 0.5rem;
         margin-bottom: 0.5rem;
         line-height: 1.3rem;
+         width: 100%;
     }
 
     .team-heading {
@@ -388,7 +389,6 @@
 
     .company-title {
         font-size: 0.7rem;
-
         padding: 8px;
         margin: 10px;
         margin-top: 5px;
@@ -401,6 +401,7 @@
         margin-top: 0.5rem;
         margin-bottom: 0.5rem;
         line-height: 1.2rem;
+         width: 100%;
     }
 
     .team-heading {
